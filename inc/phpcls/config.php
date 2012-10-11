@@ -1,6 +1,5 @@
 <?php
 /* Database Credidentials Start */
-
 define("SQLHost", "localhost"); // The Host of the MySQL Server
 define("SQLUsername",""); // MySQL Username
 define("SQLPassword",""); // MySQL Password
@@ -15,7 +14,7 @@ define("ItemsPerRow", 4); // Number of Pictures to display per Row.
 define("MaxRows", 5); // Maximum number of Row for the purpose of Pagnation (Not Implimented)
 define("AuthPass", "1234"); // The password to login to the Admin Area
 define("PayPalEmail", "info@datascribe.co.uk"); // The PayPal Business E-Mail Address in order to use PayPal's Shopping Cart
-define("HidePrivate", true); // Whether Private Galleries should be Hidden
+define("HidePrivate", true); // Whether Private Galleries should be Hidden and the login area displayed.
 
 /* Watermark Settings */
 define("WMFontSize", 80); // The Font Size in Pixels for the Watermark
