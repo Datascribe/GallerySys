@@ -1,6 +1,6 @@
 <?php
 /**
- * The License within LICENSE.txt applies to all the files within this project.
+ * The License within LICENSE.md applies to all the files within this project.
  * @author Adam Prescott <adam.prescott@datascribe.co.uk>
  */
 require_once 'inc/phpcls/config.php';

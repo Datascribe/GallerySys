@@ -55,3 +55,14 @@ Issues and Contributing to this Project
 ----------------------------------------
 If you have and Issues, be sure to log it in the [Issues Section](https://github.com/Datascribe/GallerySys/issues) of this project, whoever is involved with
 the development will get to you when possible.
+
+Also if you would like to Contribute to this project:
+* Be sure to Fork this project.
+* Make your changes.
+* Then Submit a Pull Request.
+* Whoever has Push access to this Project will review the request and merge it.
+You'll also receive a big thankyou and will be added to the list of contributors below :D
+
+Contributors
+------------
+[Adam Prescott](https://github.com/adamprescott) -- Wrote the Initial Project.
