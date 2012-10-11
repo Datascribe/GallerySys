@@ -1,0 +1,72 @@
+<p>
+<input type="hidden" name="business" value="<!--%PPEMAIL%-->">
+<input type="hidden" name="cmd" value="_cart">
+<input type="hidden" name="add" value="1">
+<input type="hidden" name="item_name" value="">
+<input type="hidden" name="amount" value="">
+<input type="hidden" name="currency_code" value="GBP">
+<input type="hidden" name="lc" value="GB">
+
+<input type="hidden" name="shipping" value="0">
+<input type="hidden" name="shipping2" value="0">
+
+<input type="hidden" name="baseamt" value="10.00">
+
+<input type="hidden" name="on0" value="">
+<input type="hidden" name="os0" value="">
+<input type="hidden" name="on1" value="">
+<input type="hidden" name="os1" value="">
+<input type="hidden" name="item_number" value="">
+
+<input type="hidden" name="baseon0" value="Style">
+<input type="hidden" name="baseos0" value="">
+<input type="hidden" name="baseon1" value="Finish">
+<input type="hidden" name="baseos1" value="">
+<input type="hidden" name="baseitn" value="">
+<input type="hidden" name="quantity" value="1">
+</p>
+<table width="120" border="1" cellpadding="0" cellspacing="0">
+  <tr>
+    <td width="75" align="center">Picture Size</td>
+    <td width="119" align="left"><select name="select" onchange = "ReadForm (this.form);">
+      <option selected value="6x4 @3.50">6x4 (&pound;3.50)</option>
+      <option value="8x6 @5.50">8x6 (&pound;5.50)</option>
+      <option value="12x8 @8.00">12x8 (&pound;8.00)</option>
+    </select></td>
+  </tr>
+  <tr>
+    <td align="center">Style&nbsp;</td>
+    <td align="left"><select name="fabric_1b" onchange = "ReadForm (this.form);">
+      <option selected value="As Seen">As Seen</option>
+      <option value="Colour">Colour</option>
+      <option value="Black & White">Black &amp; White</option>
+      <option value="Sepia">Sepia</option>
+      <option value="Blue Tint">Blue Tint</option>
+    </select></td>
+  </tr>
+  <tr>
+    <td align="center">Finish</td>
+    <td align="left"><select name="size_2b" onchange = "ReadForm (this.form);">
+      <option selected value="Normal (Gloss)">Normal (Gloss)</option>
+      <option value="Lustre">Lustre</option>
+      <option value="Metallic %100">Metallic (priceX2)</option>
+    </select></td>
+  </tr>
+  <tr>
+    <td align="center">Total item cost</td>
+    <td align="left"><input class="nbor" type="text" name="tot" size="8" value="&pound;3.50"></td>
+  </tr>
+  <tr align="center">
+    <td colspan="2"><input type="image" src="https://www.paypal.com/en_GB/i/btn/x-click-but22.gif" name="submit" alt="cart add"></td>
+    </tr>
+</form>
+  <tr align="center">
+    <td colspan="2"><form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
+<input type="hidden" name="cmd" value="_cart">
+<input type="hidden" name="business" value="<!--%PPEMAIL%-->">
+<input type="image" src="https://www.paypal.com/en_GB/i/btn/view_cart_02.gif" name="submit" alt="Make payments with PayPal - it's fast, free and secure!">
+<input type="hidden" name="display" value="1">
+<input type="hidden" name="page_style" value="Primary">
+</form></td>
+    </tr>
+</table>

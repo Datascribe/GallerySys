@@ -1,0 +1,80 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #ededed;
+    height: 100%;
+}
+#holder {
+    width: 100%;
+    position: relative;
+    min-height: 100%;
+}
+.content {
+    margin-left: auto;
+    margin-right: auto;
+    width: 810px;
+    padding: 10px;
+    padding-bottom: 15px;
+}
+#logo {
+    margin: 20px;
+    width: 100%;
+    text-align: center;
+}
+#title {
+    font-size: 20pt;
+    font-weight: bold;
+    margin-bottom: 20px;
+    width: 100%;
+    text-align: center;
+}
+#content {
+    width: 100%;
+    text-align: center;
+}
+#gallst {
+    text-align: center;
+    width: 100%;
+}
+.dataset2 {
+	width: 100%;
+	border: 1px #000000 solid;
+}
+.dataset2 tr:hover {
+	color: #000000;
+	background-color: #c7f4ad;
+}
+.dataset2 tr th {
+	color: #ffffff;
+	background-color: #303338;
+}
+.dataset2 tr {
+	border: 1px #000000 solid;
+}
+#footer {
+    width: 100%;
+    text-align: center;
+    font-size: 8pt;
+    background-color: #fff;
+    opacity: 0.9;
+    position: absolute;
+    bottom: 0;
+    height: 15px
+}
+.gallink, .gallink a {
+    color: #fff;
+    display: block;
+    opacity: 0.7;
+}
+.gallink:hover, .gallink a:hover{
+    color: #3f7cb5;
+    opacity: 1.0;
+}
+a {
+    text-decoration: none;
+    color: #434393;
+}
+a:hover {
+    color: #3f7cb5;
+}
