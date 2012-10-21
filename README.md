@@ -21,15 +21,16 @@ Setup
 -----
 ### MySQL Setup
 Firstly be sure to setup your MySQL database, this only requires one table which you can create with the below statement:
-    CREATE TABLE IF NOT EXISTS `gallery` (
-    `id` int(11) NOT NULL auto_increment,
-    `name` varchar(70) NOT NULL,
-    `folder` varchar(70) NOT NULL,
-    `isPrivate` tinyint(1) NOT NULL default '0',
-    `password` varchar(50) default NULL,
-    PRIMARY KEY  (`id`)
-    ) ENGINE=MyISAM  DEFAULT CHARSET=latin1;
-
+```SQL
+CREATE TABLE IF NOT EXISTS `gallery` (
+`id` int(11) NOT NULL auto_increment,
+`name` varchar(70) NOT NULL,
+`folder` varchar(70) NOT NULL,
+`isPrivate` tinyint(1) NOT NULL default '0',
+`password` varchar(50) default NULL,
+PRIMARY KEY  (`id`)
+) ENGINE=MyISAM  DEFAULT CHARSET=latin1;
+```
 ### Configuration
 Then you will need to edit the config file which is located at /inc/phpcls/config.php, the following things are REQUIRED otherwise the system will not work:
 * Database Credidentials
