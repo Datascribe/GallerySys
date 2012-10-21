@@ -46,11 +46,12 @@ To change the layout of the gallery, the template file is located in /inc/phpcls
 Usage
 -----
 Once you have succesfully setup the Gallery:
-1. Upload a test folder with some JPGs to /albums/
-2. Login to the Admin Area, this would be located at http://youdomain.com/gallery/index.php?mode=admin or what ever GalleryWebRoot you've setup for it.
-3. Add the details for your Album and Process the New Album. This will create a thumbs directory inside your uploaded folder and once they are created
-   The uploaded images will be resized and the watermarks added. Be sure to grab a beverage of your choice, I like a good whisky :D
-4. Bask in the glory of your new Gallery :D
+
+1.  Upload a test folder with some JPGs to /albums/
+2.  Login to the Admin Area, this would be located at http://youdomain.com/gallery/index.php?mode=admin or what ever GalleryWebRoot you've setup for it.
+3.  Add the details for your Album and Process the New Album. This will create a thumbs directory inside your uploaded folder and once they are created
+    The uploaded images will be resized and the watermarks added. Be sure to grab a beverage of your choice, I like a good whisky :D
+4.  Bask in the glory of your new Gallery :D
 
 Issues and Contributing to this Project
 ----------------------------------------
